@@ -249,13 +249,13 @@ $('.first.circle').circleProgress({
 
 
   $('.second.circle').circleProgress({
-    value: 0.75,
+    value: 0.9,
     fill: {gradient: [['#0681c4', .5], ['#26a69a', .5]], gradientAngle: Math.PI / 4}
   }).on('circle-animation-progress', function(event, progress, stepValue) {
   });
 
     $('.third.circle').circleProgress({
-    value: 0.4,
+    value: 0.69,
     fill: {gradient: [['#0681c4', .5], ['#ef5350', .5]], gradientAngle: Math.PI / 4}
   }).on('circle-animation-progress', function(event, progress, stepValue) {
   });
